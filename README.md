@@ -21,7 +21,7 @@ go run cmd/techbook/main.go
 ## Output
 
 ```
-か78, syumai, しゅーまい@技術書典か78
+お86C, syumai, しゅーまい@技術書典お86C
 ...
 (All friends (followees) of your account ordered by booth name)
 ```

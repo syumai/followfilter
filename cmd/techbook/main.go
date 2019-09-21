@@ -14,7 +14,7 @@ import (
 )
 
 var (
-	boothNameRegex = regexp.MustCompile(`([あ-んス][\d]{2})`)
+	boothNameRegex = regexp.MustCompile(`([あ-んス][\w]{2,3})`)
 	consumerKey    = os.Getenv("TWITTER_CONSUMER_KEY")
 	consumerSecret = os.Getenv("TWITTER_CONSUMER_SECRET")
 	token          = os.Getenv("TWITTER_TOKEN")
