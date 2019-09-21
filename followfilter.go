@@ -20,6 +20,3 @@ func NewFollowFilter(oauthConfig *oauth1.Config, oauthToken *oauth1.Token) *Foll
 		twitterCli: twitterCli,
 	}
 }
-
-func (ff *FollowFilter) GetFriends() *twitter.Friends {
-}
